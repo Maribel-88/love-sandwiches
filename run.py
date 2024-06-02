@@ -107,8 +107,7 @@ def get_last_5_entries__sales():
     a list of lists 
     """   
     sales = SHEET.worksheet("sales")
-    # column = sales.col_values(3)
-    # print(column)
+   
 
     columns = []
     for ind in range(1, 7):
